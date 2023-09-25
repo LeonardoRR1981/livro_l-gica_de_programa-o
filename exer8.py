@@ -3,7 +3,7 @@
 # Exiba o valor do aumento e do novo salário.
 
 salario = float(input('Qual e o salario? '))
-porcentagem = int(input('Quanto a prcentagem de aumento? '))
+porcentagem = int(input('Quanto a porcentagem de aumento? '))
 novo_salario = salario + (salario * porcentagem) / 100
 valor_aumento = novo_salario - salario
 print('Seu aumento foi de R${:.2f}, seu novo salario e de R${}'.format(valor_aumento, novo_salario))
